@@ -1,1 +1,52 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Counter App</title>
+<style>
+body{
+    display:grid;
+    place-items:center;
+    width:100%;
+    height:100%;
+}
+  .counterApp{
+        background-color:crimson;
+        margin-left:300px;
+        margin-top:50px;
+        width:300px;
+        height:500px;
+        color:white;
+        align-items:center;
+    }
+    .btn1,.btn2{
+        border-radius: 20%;
+        background-color: aqua;
+        color:orangered;
+        padding:20px;
+    }
+    #counterValue{
+        padding-left:150px;
+    }
+    #reset{
+        margin-top:100px;
+        border-radius: 20%;
+        background-color: springgreen;
+        padding:20px;
+        margin-left:100px;
+    }
+</style>
+    </head>
+    <body>
+<div class="container">
+    <div class="counterApp">
+<h1 style="margin-left:50px;">Counter App</h1>
+<h1 id="counterValue">0</h1>
+<button type="button" id="increment" class="btn1" style="margin-right:20px;" >Increment</button>
+<button type="button" id="decrement" class="btn2" style="margin-left:30px;">Decrement</button></br>
+<button type="button" id="reset">Reset</button>
+    </div>
+</div>
+<script src="main.js">
+ </script>
+</body>
+</html>
