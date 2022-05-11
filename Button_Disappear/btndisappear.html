@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Button Disappear</title>
+    <style>
+        .demo{
+            display:none;
+        }
+    </style>
+    <script>
+    var tag=document.getElementById("demo");
+    var button = document.querySelector("button");
+     button.addEventListener('click',function(){
+     tag.classList.toggle('demo');
+     });
+    </script>
+    </head>
+    <body>
+     <h1 id="demo" class="'demo">Hello There!!</h1>
+     <button type="button">Click Me</button>
+    </body>
+</html>
